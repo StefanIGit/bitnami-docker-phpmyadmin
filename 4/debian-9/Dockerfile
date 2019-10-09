@@ -14,6 +14,7 @@ ENV BITNAMI_APP_NAME="phpmyadmin" \
     DATABASE_ENABLE_SSL="no" \
     DATABASE_HOST="mariadb" \
     DATABASE_PORT_NUMBER="3306" \
+    DATABASE_AUTH_TYPE="cookie" \
     DATABASE_SSL_CA="" \
     DATABASE_SSL_CA_PATH="" \
     DATABASE_SSL_CERT="" \
