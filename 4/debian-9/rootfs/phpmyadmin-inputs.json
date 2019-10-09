@@ -3,6 +3,7 @@
   "allowNoPassword": "{{$global.env.PHPMYADMIN_ALLOW_NO_PASSWORD}}",
   "databaseServerHost": "{{$global.env.DATABASE_HOST}}",
   "databaseServerPort": "{{$global.env.DATABASE_PORT_NUMBER}}",
+  "databaseAuthType": "{{$global.env.DATABASE_AUTH_TYPE}}",
   "databaseServerSsl": "{{$global.env.DATABASE_ENABLE_SSL}}",
   "databaseServerSslCa": "{{$global.env.DATABASE_SSL_CA}}",
   "databaseServerSslCaPath": "{{$global.env.DATABASE_SSL_CA_PATH}}",
